@@ -18,6 +18,7 @@ class DecideByBracket:
         fieldnames = ['round', 'match_number', 'c1', 'c2', 'winner']
         self.out_file = open('tournament_results.csv', 'a+', newline='')
         self.writer = csv.DictWriter(self.out_file, fieldnames=fieldnames)
+        self.writer.writeheader()
 
 
     def print_competitors(self):
