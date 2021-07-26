@@ -73,6 +73,10 @@ class DecideByBracket:
 
 def main():
 
+    # First Argument: Path to CSV file with tournament competitors / choices.
+    #                  CSV need only contain one column containing choices, with a header field.
+    # Second Argument (Optional): Maximum number of tournament competitors / choices
+
     num_args = len(sys.argv[1:])
 
     competitors_path = sys.argv[1]
