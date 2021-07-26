@@ -21,7 +21,7 @@ class DecideByBracket:
 
 
     def print_competitors(self):
-        print(self.competitors[1:])
+        print(self.competitors)
 
 
     def close_out_file(self):
